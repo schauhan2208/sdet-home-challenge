@@ -1,3 +1,7 @@
+## Note on platforms
+
+Developed and tested on Windows (PowerShell, Docker Desktop with WSL2). On macOS or Linux a few commands differ slightly: use `python3` and `pip3` instead of `python` and `pip`, `export VAR=value` instead of `$env:VAR="value"`, `$PWD` instead of `${PWD}`, and `sh certs/gen_cert.sh` to generate the TLS certificate. The Docker commands are identical.
+
 # SDET Home Challenge: Message Server
 
 Python HTTP server that accepts messages, **redacts sensitive data before storage**, and shows them in a table. Includes a client/CLI, Docker packaging, and API + Playwright tests.
