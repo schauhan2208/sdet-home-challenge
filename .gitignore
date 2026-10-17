@@ -1,0 +1,6 @@
+__pycache__/
+*.db
+certs/*.pem
+.pytest_cache/
+reports/
+.idea/

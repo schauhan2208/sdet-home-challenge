@@ -1,0 +1,5 @@
+tests
+certs
+*.db
+__pycache__
+.git
